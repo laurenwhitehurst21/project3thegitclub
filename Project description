@@ -1,0 +1,2 @@
+# project3thegitclub 
+For group project 3 our group is using a database we are using a database that includes three tables containing data from experiments involving rodent catching. Since the data includes organisms that were accidentally caught that were not rodents, we want to exclude those records so we are going to query the database for all species where taxa = "rodent", then we will join that query to the surveys table. We fill define our primary key and foreign key as the Species ID, limiting the data to rodents and their species names.  
